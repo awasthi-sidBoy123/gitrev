@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66179" started-at="2021-02-22T09:19:19 IST" finished-at="2021-02-22T09:20:25 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66179" started-at="2021-02-22T09:19:19 IST" finished-at="2021-02-22T09:20:25 IST">
+      <class name="Revision.ZZRevise.Login">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:Revision.ZZRevise.Login@1442d7b5]" name="initializeDriver" is-config="true" duration-ms="53486" started-at="2021-02-22T09:19:19 IST" finished-at="2021-02-22T09:20:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="loginData()[pri:0, instance:Revision.ZZRevise.Login@1442d7b5]" name="loginData" duration-ms="12553" started-at="2021-02-22T09:20:12 IST" finished-at="2021-02-22T09:20:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+      </class> <!-- Revision.ZZRevise.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
