@@ -30,6 +30,7 @@ public class BaseClass {
 			 System.setProperty("webdriver.gecko.driver", "D:\\driver\\geckodriver.exe");
 	    	 driver = new FirefoxDriver();
 		 }else {
+			 System.out.println("win");
 			 
 		 }
 		return driver;
