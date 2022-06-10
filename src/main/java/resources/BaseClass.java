@@ -21,7 +21,7 @@ public class BaseClass {
 		 FileInputStream fis = new FileInputStream("C:\\Users\\Admin\\eclipse-workspace\\ZZRevise\\src\\main\\java\\resources\\Data.properties");
 		 prop.load(fis);
 		 browserType = prop.getProperty("browser");
-		 
+		 System.out.println("hello");
 		 if(browserType.contains("chrome")) {
 			 System.out.println(browserType);
 			 	System.setProperty("webdriver.chrome.driver", "D:\\driver\\chromedriver.exe");
